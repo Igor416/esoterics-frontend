@@ -1,0 +1,250 @@
+.matrix-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  aspect-ratio: 1;
+  border: 1px solid #17202b;
+  background-color:  grey;
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+.matrix-circle.position-a {
+  top: 50%;
+  left: 3.9%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-a1 {
+  top: 50%;
+  left: 13%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-a2 {
+  top: 50%;
+  left: 19.4%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-a3 {
+  top: 50%;
+  left: 32.4%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-с {
+  top: 3.9%;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+
+.matrix-circle.position-с1 {
+  top: 13.1%;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+
+.matrix-circle.position-с2 {
+  top: 19.5%;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+
+.matrix-circle.position-с3 {
+  top: 32.5%;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+
+.matrix-circle.position-e {
+  top: 50.1%;
+  right: 4%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-e1 {
+  top: 50.1%;
+  right: 13.1%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-e2 {
+  top: 50.1%;
+  right: 19.5%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-g {
+  bottom: 3.9%;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+  
+.matrix-circle.position-g1 {
+  bottom: 13.1%;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+  
+.matrix-circle.position-g2 {
+  bottom: 19.5%;
+  left: 50%;
+  transform: translate(-50%,0)
+}
+  
+.matrix-circle.position-z {
+  top: 50%;
+  left: 49.9%;
+  transform: translate(-50%,-50%)
+}
+
+.matrix-circle.position-z1 {
+  top: 50%;
+  right: 39.2%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-z2 {
+  top: 50%;
+  right: 34.7%;
+  transform: translate(0,-50%)
+}
+
+.matrix-circle.position-b {
+  top: 16%;
+  left: 16.2%
+}
+
+.matrix-circle.position-b1 {
+  top: 23%;
+  left: 23%
+}
+  
+.matrix-circle.position-b2 {
+  top: 27.8%;
+  left: 27.8%
+}
+
+.matrix-circle.position-d {
+  top: 16.1%;
+  right: 16.1%
+}
+
+.matrix-circle.position-d1 {
+  top: 23%;
+  right: 23%
+}
+  
+.matrix-circle.position-d2 {
+  top: 27.8%;
+  right: 27.8%
+}
+
+.matrix-circle.position-f {
+  bottom: 15.9%;
+  right: 16.3%
+}
+
+.matrix-circle.position-f1 {
+  bottom: 23%;
+  right: 23%
+}
+  
+.matrix-circle.position-f2 {
+  bottom: 27.8%;
+  right: 27.8%
+}
+  
+.matrix-circle.position-h {
+  bottom: 16.1%;
+  left: 16%
+}
+
+.matrix-circle.position-h1 {
+  bottom: 27.8%;
+  left: 27.8%
+}
+
+.matrix-circle.position-h2 {
+  bottom: 23%;
+  left: 23%
+}
+  
+.matrix-circle.position-x {
+  bottom: 33.7%;
+  right: 33.7%
+}
+  
+.matrix-circle.position-xe {
+  bottom: 40.6%;
+  right: 26.6%
+}
+  
+.matrix-circle.position-xg {
+  bottom: 26.6%;
+  right: 40.7%
+}
+  
+.matrix-circle.size-lg {
+  width: 9.143%;
+  font-size: 5em
+}
+    
+.matrix-circle.size-md {
+  width: 6.4%;
+  font-size: 3em
+}
+    
+.matrix-circle.size-sm {
+  width: 4.572%;
+  font-size: 2em
+}
+
+.matrix-circle.white.active {
+  background-color: #ffffff;
+  color: #17202b
+}
+
+.matrix-circle.purple.active {
+  border: none;
+  background-color: #8a46a3;
+  color: #ffffff;
+}
+
+.matrix-circle.blue.active {
+  border: none;
+  background-color: #526dfa;
+  color: #ffffff;
+}
+
+.matrix-circle.cyan.active {
+  border: none;
+  background-color: #45cfe1;
+  color: #17202b
+}
+
+.matrix-circle.green.active {
+  border: none;
+  background-color: #afde61;
+  color: #17202b
+}
+
+.matrix-circle.yellow.active {
+  border: none;
+  background-color: #ffed47;
+  color: #17202b
+}
+
+.matrix-circle.orange.active {
+  border: none;
+  background-color: #ffae34;
+  color: #17202b
+}
+  
+.matrix-circle.red.active {
+  border: none;
+  background-color: #ef4141;
+  color: #ffffff;
+}
